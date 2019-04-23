@@ -1,10 +1,12 @@
 #main-nav {
   background: #f8f9fb; }
   #main-nav ul {
-    width: 100%; }
+    width: 100%;
+    list-style-type: none; }
   #main-nav li {
     float: left;
-    width: 14%; }
+    width: 14%;
+    list-style: none; }
   #main-nav a {
     text-decoration: none;
     padding: 16px;
