@@ -1,0 +1,29 @@
+// variables
+$offWhite: #f8f9fb;
+
+
+// rules
+#main-nav{
+  background: $offWhite;
+  ul{
+    width: 100%;
+  }
+  li{
+    float: left;
+    width: 14%;
+  }
+  a{
+
+    text-decoration: none;
+    padding: 16px;
+    display: block;
+    text-align: center;
+  }
+
+}// end #main-nav
+
+#main-nav ul:after{
+  content: "";
+  display: block;
+  clear: both;
+}

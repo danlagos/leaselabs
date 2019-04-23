@@ -1,0 +1,17 @@
+#main-nav {
+  background: #f8f9fb; }
+  #main-nav ul {
+    width: 100%; }
+  #main-nav li {
+    float: left;
+    width: 14%; }
+  #main-nav a {
+    text-decoration: none;
+    padding: 16px;
+    display: block;
+    text-align: center; }
+
+#main-nav ul:after {
+  content: "";
+  display: block;
+  clear: both; }
