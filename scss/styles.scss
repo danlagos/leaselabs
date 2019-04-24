@@ -1,9 +1,11 @@
+// Normally I would create a seperate file for variables, mixins, and styles,
+// however, I only have two variables and one mixin.
+
 // variables
 $offWhite: #f8f9fb;
 $deepBlue: #032f3e;
 
 // mixins
-
 
 // used to position the text on hover
 @mixin description {

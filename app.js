@@ -1,3 +1,6 @@
+// I had to change the path attributes to account for the way I structured the
+// pages folder.
+
 var images = {
 	man: {
 		heading: 'Man Image',
