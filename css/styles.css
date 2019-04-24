@@ -1,8 +1,7 @@
 #main-nav {
   background: #f8f9fb; }
   #main-nav ul {
-    width: 100%;
-    list-style-type: none; }
+    width: 100%; }
   #main-nav li {
     float: left;
     width: 14%;
@@ -17,3 +16,49 @@
   content: "";
   display: block;
   clear: both; }
+
+#header {
+  color: #032f3e; }
+
+.images {
+  width: 300px;
+  height: 200px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 4px;
+  position: relative; }
+  .images img {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #032f3e; }
+
+#manDesc {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px; }
+
+#wizDesc {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px; }
+
+#beastDesc {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px; }

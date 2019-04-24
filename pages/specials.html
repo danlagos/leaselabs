@@ -7,8 +7,9 @@
     <title></title>
   </head>
   <header>
-    <nav id="main-nav">
 
+    <!-- you will see this navbar repeaded in all files of this folder I normally would not do this.  If I were using React.JS I would make a nav compnenent, once, and render the component into a main page.  Normally I would render this in the index.html so that no matter what page the user is on (about us, contact us, ect) the user will have access to the nav bar, and I won't have to repeat this section of the code so many time.</I>-->
+    <nav id="main-nav">
         <ul>
           <li><img src="../images/leaselabs_logo_fullstack_rgb.png"></li>
           <li><a href="index.html">Home</a></li>
@@ -17,12 +18,27 @@
           <li><a href="contact.html">Contact Us</a></li>
           <li><a href="specials.html">Specials</a></li>
         </ul>
-
     </nav>
+    <!--  end of navbar. -->
   </header>
   <body>
-    <h1>HEADING 1</h1>
-      <h2>Heading 2</h2>
+    <!-- unable to finish side nav bar -->
+    <nav id="sub-nav">
+      <h1> SUBNAV <h1>
+      <ul>
+        <li><a href="#">Link 1</a></li>
+        <li><a href="#">Link 2</a></li>
+        <li><a href="#">Link 3</a></li>
+      </ul>
+      <h1> RELATED LINKS </h1>
+      <ul>
+        <li><a href="#">Link 1</a></li>
+        <li><a href="#">Link 2</a></li>
+        <li><a href="#">Link 3</a></li>
+      </ul>
+    </nav>
+    <h1 id="header">HEADING 1</h1>
+      <h2>heading 2</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque maximus interdum rhoncus. Curabitur dictum est sit amet turpis auctor facilisis. Phasellus nec suscipit mi. In eget egestas risus. Aliquam erat volutpat. Duis euismod scelerisque orci, nec imperdiet lacus laoreet ac. Integer auctor massa tristique neque tincidunt blandit vel in augue.
         </p>
@@ -32,11 +48,18 @@
         <p>
            Donec viverra sem eu sapien feugiat accumsan. Vivamus ullamcorper augue tempor sem dapibus pulvinar. Pellentesque ac nunc euismod, lobortis eros vitae, bibendum ex. Aliquam vitae justo turpis. Praesent ex orci, ullamcorper et eros in, euismod gravida tellus. Nullam sed sapien dictum, eleifend mauris et, placerat odio. Aliquam quis sapien nisl.
          </p>
-    <div>side bar goes here</div>
-    <img src="${images.man.path}">
-    <img src="../images/man.jpg">
-    <img src="../images/wizard.jpg">
-    <img src="../images/beast.jpg">
+
+    <div class="images">
+      <!--  I am unable to get the description to go over the appropriate image.-->
+      <img id="man" src="../images/man.jpg" onmouseover="handleMouseOver()" onmouseout="handleMouseOut()">
+      <h1 id ="manDesc"></h1>
+
+      <img id="wizard" src="../images/wizard.jpg" onmouseover="handleWizard()" onmouseout="handleWizardOut()">
+      <h1 id="wizDesc"></h1>
+
+      <img id="beast" src="../images/beast.jpg" onmouseover="handleBeast()" onmouseout="handleBeastOut()">
+      <h1 id="beastDesc"></h1>
+    </div>
     <script src="../app.js"></script>
   </body>
 </html>
